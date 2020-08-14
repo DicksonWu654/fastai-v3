@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/x99px2ihf98nrqk/antthing.pkl?dl=0'
+export_file_url = 'https://www.dropbox.com/s/x99px2ihf98nrqk/antthing.pkl?raw=1'
 export_file_name = 'antthing.pkl'
 
 classes = ["carp", "bga", "BA", "PA", "RA", "WA"]
