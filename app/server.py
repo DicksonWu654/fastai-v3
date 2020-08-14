@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/x99px2ihf98nrqk/antthing.pkl?raw=1'
-export_file_name = 'antthing.pkl'
+export_file_url = 'https://www.dropbox.com/s/k8wsoi38n7p11j8/Ant_Classifer.pkl?raw=1'
+export_file_name = 'Ant_Classifer.pkl'
 
-classes = ["carp", "bga", "BA", "PA", "RA", "WA"]
+classes = ["Carpenter Ant", "Black Garden Ant", "Bullet Ant", "Pharoah Ant", "Red Ant", "Weaver Ant"]
 path = Path(__file__).parent
 
 app = Starlette()
